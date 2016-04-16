@@ -27,5 +27,5 @@ func main() {
 	for i := 1; i <= 1000; i++ {
 		result.Add(result, pow(i, i))
 	}
-	fmt.Println(result.String()[len(result.String())-10:]) //outputs: 9110846700
+	fmt.Printf("Result = %s\n", result.String()[len(result.String())-10:]) //outputs: 9110846700
 }
